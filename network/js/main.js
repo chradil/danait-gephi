@@ -86,6 +86,8 @@ function initSigma(config) {
     a.active = !1;
     a.neighbors = {};
     a.detail = !1;
+	
+    var dragListener = new sigma.plugins.dragNodes(sigInst, renderer);
 
 
     dataReady = function() {//This is called as soon as data is loaded

@@ -12,7 +12,7 @@ GexfJS.setParams({
         /*
             Default state of the "show edges" button. Set to null to disable button.
         */
-    useLens : false,
+    useLens : null,
         /*
             Default state of the "use lens" button. Set to null to disable button.
         */
@@ -32,7 +32,7 @@ GexfJS.setParams({
         */
     minEdgeWidth : 5,
     maxEdgeWidth : 50,
-    textDisplayThreshold: 9,
+    textDisplayThreshold: 50,
     nodeSizeFactor : 50,
         /*
             Change this parameter for smaller or larger nodes

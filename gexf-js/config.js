@@ -25,7 +25,7 @@ GexfJS.setParams({
             False for curved edges, true for straight edges
             this setting can't be changed from the User Interface
         */
-    edgeWidthFactor : 10,
+    edgeWidthFactor : 30,
         /*
             Change this parameter for wider or narrower edges
             this setting can't be changed from the User Interface
@@ -33,7 +33,7 @@ GexfJS.setParams({
     minEdgeWidth : 5,
     maxEdgeWidth : 50,
     textDisplayThreshold: 9,
-    nodeSizeFactor : 20,
+    nodeSizeFactor : 50,
         /*
             Change this parameter for smaller or larger nodes
            this setting can't be changed from the User Interface

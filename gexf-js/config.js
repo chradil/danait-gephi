@@ -33,7 +33,7 @@ GexfJS.setParams({
     minEdgeWidth : 1,
     maxEdgeWidth : 50,
     textDisplayThreshold: 50,
-    nodeSizeFactor : 100,
+    nodeSizeFactor : 75,
         /*
             Change this parameter for smaller or larger nodes
            this setting can't be changed from the User Interface

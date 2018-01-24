@@ -12,7 +12,7 @@ GexfJS.setParams({
         /*
             Default state of the "show edges" button. Set to null to disable button.
         */
-    useLens : true,
+    useLens : false,
         /*
             Default state of the "use lens" button. Set to null to disable button.
         */
@@ -25,15 +25,15 @@ GexfJS.setParams({
             False for curved edges, true for straight edges
             this setting can't be changed from the User Interface
         */
-    edgeWidthFactor : 1,
+    edgeWidthFactor : 5,
         /*
             Change this parameter for wider or narrower edges
             this setting can't be changed from the User Interface
         */
-    minEdgeWidth : 1,
+    minEdgeWidth : 5,
     maxEdgeWidth : 50,
     textDisplayThreshold: 9,
-    nodeSizeFactor : 1,
+    nodeSizeFactor : 10,
         /*
             Change this parameter for smaller or larger nodes
            this setting can't be changed from the User Interface
